@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import API from "../api/api";
-import { useParams, useNavigate, useSearchParams, Navigate } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 const AddorEdit = () =>
 {
 const [form, setForm] = useState({name: "", price: "", stock: ""});
